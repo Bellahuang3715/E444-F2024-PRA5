@@ -1,6 +1,7 @@
 import requests
 
-base_url = "http://127.0.0.1:5000/predict/"
+# base_url = "http://127.0.0.1:5000/predict/"
+base_url = "http://server-sentiment-1-env.eba-rj25pess.us-east-2.elasticbeanstalk.com/predict/"
 
 # test cases (two fake news and two real news)
 test_cases = {

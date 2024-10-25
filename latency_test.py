@@ -2,7 +2,8 @@ import requests
 import time
 import csv
 
-base_url = "http://127.0.0.1:5000/predict/"
+# base_url = "http://127.0.0.1:5000/predict/"
+base_url = "http://server-sentiment-1-env.eba-rj25pess.us-east-2.elasticbeanstalk.com/predict/"
 
 # test cases
 test_cases = {
